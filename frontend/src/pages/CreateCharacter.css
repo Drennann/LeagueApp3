@@ -1,0 +1,20 @@
+.Election{
+    cursor: pointer;
+}
+.CreateContainer ul{
+    height: 100vh;
+}
+
+.CreateContainer ul li{
+    height: 560px;
+    width: 308px;
+    opacity: 0.7;
+}
+
+.CreateContainer h1{
+    position: fixed;
+    width: 100vw;
+    text-align: center;
+    top: 30px;
+    font-size: 40px;
+}

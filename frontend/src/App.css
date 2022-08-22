@@ -1,0 +1,25 @@
+*{
+  margin:auto;
+  background-color: #121212;
+  color:#d0d0d0;
+  font-size: 22px;
+  box-sizing: border-box;
+}
+
+.button:hover{
+  color: #1db954
+}
+button:hover{
+  color: #1db954
+}
+
+.buttons li a:hover{
+  color: #1db954
+}
+
+.Gold{
+  color:yellow
+}
+.Exp{
+  color:aqua
+}

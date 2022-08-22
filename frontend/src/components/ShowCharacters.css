@@ -1,0 +1,16 @@
+.CharactersContainer{
+    height: 70vh;
+    display: flex;
+}
+.Character{
+    display: flex;
+    flex-direction: column;
+}
+
+.Character p{
+    margin-top: 10px;
+}
+.centralImage:hover{
+    transform: scale(1.02);
+    transition: transform 0.5s;
+}

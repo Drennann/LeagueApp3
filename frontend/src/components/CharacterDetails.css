@@ -1,0 +1,53 @@
+.CharacterDetailsContainer{
+    height: 100vh;
+    display: flex;
+}
+.CharacterCard{
+    border: 1px solid #414141;
+    padding: 50px;
+    display: grid;
+    height: 90vh;
+    grid-template-columns: 308px 300px;
+    grid-template-rows: 200px 200px 200px 100px 100px;
+    grid-template-areas: "img hp"
+                        "img armor"
+                        "img attackdamage"
+                        "tolevelup tolevelup"
+                        "buttons buttons";
+}
+
+.hp{
+    grid-area: hp;
+}
+
+.armor{
+    grid-area: armor;
+}
+
+.attackdamage{
+    grid-area: attackdamage;
+}
+
+.tolevelup{
+    grid-area: tolevelup;
+}
+
+.buttons{
+    grid-area: buttons;
+}
+
+.expav{
+    position: fixed;
+    right: 100px;
+    color:aqua;
+}
+.image{
+    grid-area: img;
+}
+
+.button{
+    text-decoration: none;
+    border: 1px solid #414141;
+    padding: 22px 25px;
+    margin: 0 15px;
+}

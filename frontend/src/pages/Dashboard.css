@@ -1,0 +1,16 @@
+li{
+    list-style-type: none;
+}
+ul{
+    height: 100px;
+    display: flex;
+    justify-content: space-evenly;
+    border: 1px solid #414141;
+    background-color: #121212;
+}
+
+.li{
+    text-decoration: none;
+    border: 1px solid #414141;
+    padding: 15px;
+}

@@ -1,0 +1,18 @@
+.StageDetailsContainer{
+    height: 100vh;
+    display: grid;
+}
+
+.StageDetailsContainer .button{
+    padding: 25px;
+    border: 1px solid #414141;
+    margin: 10px;
+    background-color: #121212;
+    cursor: pointer;
+    text-decoration: none;
+    height: 76px;
+    font-weight: 500;
+}
+.target{
+    margin: 0 50px;
+}
